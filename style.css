@@ -1,0 +1,48 @@
+body.b{
+background-color: lightblue;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+span.black{
+    font-size: 65px;
+    color: black;
+}
+div.menu{
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+}
+p.line::first-line{
+    color: red;
+}
+
+span.amarillo:hover{
+background-color: yellow;
+color: red;
+}
+a.vist:visited{
+    background-color: blue;
+    color: white;
+}
+a:link{
+    background-color: white;
+    color: blue;
+}
+h3{
+   counter-reset: prod; 
+}
+p.sj::before{
+content: counter(prod) " .";
+counter-increment: prod;
+}
+img{
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
